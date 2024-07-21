@@ -1,0 +1,129 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.home {
+  margin: 15rem 30rem;
+}
+
+.home h2 {
+  margin-bottom: 5.5rem;
+  text-align: center;
+}
+
+.home button {
+  font-family: "Oswald", sans-serif;
+  margin-inline: 12rem;
+  font-size: 2.4rem;
+  border: none;
+  cursor: pointer;
+  background-color: #76DE37;
+  border-radius: 10px;
+  font-weight: 400;
+  padding: 0.09em 2.5em;
+} 
+
+.home button:hover {
+  background-color: rgb(122, 255, 61, 0.7);
+}
+
+.home button:active {
+  background-color: rgb(122, 255, 61, 0.5);
+
+}
+
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: #EBEBEB;
+  border-radius: 50px;
+  max-width: 264px;
+  padding: 0.1em 1em;
+  margin-bottom: 4.5rem;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search input {
+  border: none;
+  font-size: 1.6rem;
+  background-color: inherit;
+}
+
+.icon2 {
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: x-large;
+  cursor: pointer;
+}
+
+
+a {
+  font-weight: 500;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.3rem;
+  color: #666666;
+  text-decoration: inherit;
+}
+
+
+a:hover {
+  color: #bbbbbb;
+  padding: 0.3em 2em;
+  border: 1px solid #e1e1e1;
+}
+
+
+a.active {
+  color: #0caa19;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+input,
+textarea,
+select {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: inherit;
+  padding: 0.5em;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
