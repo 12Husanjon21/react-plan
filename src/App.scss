@@ -10,11 +10,12 @@
 
 .container {
   display: flex;
+  padding: 4rem;
   column-gap: 2rem;
   .aside {
     background-color: #F4F4F4;
     width: 400px;
-    height: 90vh;
+    height: 100%;
     border-radius: 50px;
     padding: 2rem;
     h2 {
@@ -99,6 +100,7 @@ h2 {
 }
 
 .today {
+
   h2 {
     font-weight: 400;
     font-size: 3.6rem;
@@ -162,6 +164,11 @@ h2 {
     padding: 0.4em 2em;
     border-radius: 1rem;
     margin-bottom: 1rem;
+    input {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+    }
   }
 }
 
@@ -188,3 +195,47 @@ h2 {
   }
 }
 
+.flex {
+  display: flex;
+  gap: 3rem;
+  .mainBoxes {
+    width: 100%;
+    max-height: 36vh;
+  }
+}
+
+.mainBoxes {
+  padding: 1rem;
+    background-color: inherit;
+    border: 2px solid #BFBFBF;
+    max-width: 90rem;
+    height: 42vh;
+    border-radius: 50px;
+    padding: 2rem 4rem;
+    margin-bottom: 3rem;
+    .texter {
+      padding: 0em 1em;
+      display: flex;
+      align-items: center;
+      column-gap: 1rem;
+      max-width: 100%;
+      border: 2px solid #BFBFBF;
+      border-radius: 1.2rem;
+    }
+    input[type = "text"] {
+      border: none;
+      width: 100%;
+      font-size: 1.6rem;
+    }
+    input:focus {
+      outline: none;
+    }
+    
+}
+
+.todayBox {
+  width: 898px;
+  h2 {
+    margin-bottom: 2rem;
+  }
+}

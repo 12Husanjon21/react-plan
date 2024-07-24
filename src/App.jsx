@@ -6,6 +6,8 @@ import Login from "./components/login/Login";
 import Home from "./components/home/Home";
 import Aside from "./components/common/Aside";
 import ProtectedRoute from "./components/protected-route/ProtectedRoute";
+import UpComing from "./components/upComing/UpComing";
+
 
 
 
@@ -18,6 +20,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route element={<ProtectedRoute />}>
             <Route path='/today' element={<Today />} />
+          </Route>
+
+          <Route>
+            <Route path="upcoming" element={<UpComing />}/> 
           </Route>
 
           <Route path='/login' element={<Login />} />

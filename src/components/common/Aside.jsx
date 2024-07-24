@@ -26,6 +26,9 @@ const Aside = () => {
             <li>
               <NavLink to='/today' className='link'>Today</NavLink>
             </li>
+            <li>
+              <NavLink to='/upcoming' className='link'>UpComing</NavLink>
+            </li>
           </ul>
 
         <h3>Lists</h3>
